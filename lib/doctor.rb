@@ -8,6 +8,7 @@ class Doctor
     @name =  name
     @@all << self
     @appointment = []
+    @patients = []
   end
   
   def name
